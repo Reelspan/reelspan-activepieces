@@ -1,0 +1,59 @@
+{
+  "name": "@reelspan/activepieces-piece",
+  "version": "0.1.0",
+  "description": "Activepieces piece for Reelspan: publish videos, photos, text and PDFs to TikTok, YouTube, Instagram, X, LinkedIn and 17 more networks; status, retry, history, analytics and AI captions.",
+  "license": "MIT",
+  "author": "Anjum Labs <support@reelspan.com>",
+  "homepage": "https://reelspan.com/docs/activepieces",
+  "bugs": {
+    "url": "https://github.com/Reelspan/reelspan-activepieces/issues",
+    "email": "support@reelspan.com"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "activepieces",
+    "activepieces-piece",
+    "reelspan",
+    "automation",
+    "social media",
+    "tiktok",
+    "youtube",
+    "instagram",
+    "linkedin",
+    "upload-post"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && esbuild src/index.ts --bundle --platform=node --format=cjs --target=node20 --external:@activepieces/* --outfile=dist/src/index.js && tsc -p tsconfig.json --noEmit false --declaration --emitDeclarationOnly --outDir dist/src",
+    "test": "npm run build && node --test test/piece.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "@activepieces/pieces-common": "^0.12.5",
+    "@activepieces/pieces-framework": "^0.32.0",
+    "@activepieces/shared": "^0.95.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "esbuild": "^0.25.12",
+    "reelspan": "github:Reelspan/reelspan-node#cc5ceabe0aa3dd633b546f6a0a2132c4efded09f",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reelspan/reelspan-activepieces.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
