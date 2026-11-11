@@ -1,7 +1,7 @@
 # Reelspan for Activepieces
 
 An [Activepieces](https://www.activepieces.com) piece for [Reelspan](https://reelspan.com): publish videos, photos,
-text and PDFs to TikTok, YouTube, Instagram, Facebook, X, Threads, LinkedIn, Pinterest, Bluesky, Reddit and 12 more
+text and PDFs to TikTok, YouTube, Instagram, Facebook, X, Threads, LinkedIn, Pinterest, Bluesky, Reddit and more
 networks from your flows, then check results and read analytics.
 
 ## Install
