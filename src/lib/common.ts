@@ -7,7 +7,7 @@ export const BASE_URL = 'https://api.reelspan.com';
 export const PLATFORMS: { label: string; value: string }[] = [
   ['TikTok', 'tiktok'], ['YouTube', 'youtube'], ['Instagram', 'instagram'], ['Facebook', 'facebook'], ['X (Twitter)', 'x'], ['Threads', 'threads'],
   ['LinkedIn', 'linkedin'], ['Pinterest', 'pinterest'], ['Bluesky', 'bluesky'], ['Reddit', 'reddit'], ['Google Business', 'google_business'],
-  ['Telegram', 'telegram'], ['Discord', 'discord'], ['Slack', 'slack'], ['Mastodon', 'mastodon'], ['Lemmy', 'lemmy'],
+  ['Telegram', 'telegram'], ['Discord', 'discord'], ['Slack', 'slack'], ['Mastodon', 'mastodon'],
   ['Dev.to', 'devto'], ['Hashnode', 'hashnode'], ['WordPress', 'wordpress'], ['Sandbox (test)', 'sandbox'],
 ].map(([label, value]) => ({ label, value }));
 
