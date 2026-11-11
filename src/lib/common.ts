@@ -7,8 +7,8 @@ export const BASE_URL = 'https://api.reelspan.com';
 export const PLATFORMS: { label: string; value: string }[] = [
   ['TikTok', 'tiktok'], ['YouTube', 'youtube'], ['Instagram', 'instagram'], ['Facebook', 'facebook'], ['X (Twitter)', 'x'], ['Threads', 'threads'],
   ['LinkedIn', 'linkedin'], ['Pinterest', 'pinterest'], ['Bluesky', 'bluesky'], ['Reddit', 'reddit'], ['Google Business', 'google_business'],
-  ['Telegram', 'telegram'], ['Discord', 'discord'], ['Slack', 'slack'], ['Mastodon', 'mastodon'], ['Nostr', 'nostr'], ['Lemmy', 'lemmy'],
-  ['Dev.to', 'devto'], ['Hashnode', 'hashnode'], ['WordPress', 'wordpress'], ['Whop', 'whop'], ['Listmonk', 'listmonk'], ['Sandbox (test)', 'sandbox'],
+  ['Telegram', 'telegram'], ['Discord', 'discord'], ['Slack', 'slack'], ['Mastodon', 'mastodon'], ['Lemmy', 'lemmy'],
+  ['Dev.to', 'devto'], ['Hashnode', 'hashnode'], ['WordPress', 'wordpress'], ['Sandbox (test)', 'sandbox'],
 ].map(([label, value]) => ({ label, value }));
 
 /** The connection's secret, whether Activepieces passes it as a string (older) or { secret_text } (newer). */
