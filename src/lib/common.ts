@@ -1,7 +1,7 @@
 import { PieceAuth, Property } from '@activepieces/pieces-framework';
 import { Reelspan, ReelspanError, type FileInput } from 'reelspan';
 
-export const VERSION = '0.1.0';
+export const VERSION = '0.1.1';
 export const BASE_URL = 'https://api.reelspan.com';
 
 export const PLATFORMS: { label: string; value: string }[] = [

@@ -1,6 +1,6 @@
 {
   "name": "@reelspan/activepieces-piece",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Activepieces piece for Reelspan: publish videos, photos, text and PDFs to TikTok, YouTube, Instagram, X, LinkedIn and more; status, retry, history, analytics and AI captions.",
   "license": "MIT",
   "author": "Anjum Labs <support@reelspan.com>",
